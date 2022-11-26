@@ -25,7 +25,7 @@ public class signupcontroller extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		RequestDispatcher rd = request.getRequestDispatcher("WEB-INF/view1/signup.jsp");
 		rd.forward(request, response);
-
+//learn git hub
 	}
 
 }
